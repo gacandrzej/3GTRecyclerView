@@ -9,12 +9,15 @@
       android:id="@+id/imageView1"
       android:layout_width="50dp"
       android:layout_height="50dp"
-      tools:src="@sample/apple.png"/>
+      tools:src="@sample/nazwy.json/data/image"
+      />
+
   <TextView
       android:id="@+id/textView1"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center"
       android:padding="5dp"
-      tools:text="@tools:sample/lorem" />
+      tools:text="@sample/nazwy.json/data/nazwa"
+      />
 </LinearLayout>

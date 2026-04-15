@@ -3,12 +3,12 @@
     <string-array name="names">aaaa
         <item>jabłko</item>
         <item>banan</item>
-        <item>bbbb</item>
-        <item>bbbb</item>
-        <item>bbbb</item>
-        <item>bbbb</item>
-        <item>bbbb</item>
-        <item>bbbb</item>
-        <item>bbbb</item>
+        <item>pomarańcza</item>
+        <item>mango</item>
+        <item>kiwi</item>
+        <item>limonka</item>
+        <item>papaja</item>
+        <item>porzeczka</item>
+        <item>śliwka</item>
     </string-array>
 </resources>

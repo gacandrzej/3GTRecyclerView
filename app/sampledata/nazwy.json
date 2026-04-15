@@ -1,0 +1,13 @@
+{
+  "data": [
+    { "nazwa": "jabłko" , "image": "@sample/images"},
+    { "nazwa": "awokado" , "image": "@sample/images"},
+    { "nazwa": "banan" , "image": "@sample/images"},
+    { "nazwa": "czereśnia" , "image": "@sample/images"},
+    { "nazwa": "gruszka", "image": "@sample/images" },
+    { "nazwa": "kiwi", "image": "@sample/images" },
+    { "nazwa": "śliwka" , "image": "@sample/images"},
+    { "nazwa": "jagoda", "image": "@sample/images" },
+    { "nazwa": "wiśnia" , "image": "@sample/images"}
+  ]
+}
