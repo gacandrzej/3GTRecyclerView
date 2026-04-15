@@ -25,14 +25,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.my_text_view, parent, false);
-        MyViewHolder vh = new MyViewHolder(v);
-        return null;
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler_view_item, parent, false);
+        return new MyViewHolder(v);
     }
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-
+        holder.textView.setText(mDataset[position]);
+        holder.imageView.setImageResource(mImages[position]);
     }
 
     @Override
@@ -46,8 +46,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
 
         public MyViewHolder(View v) {
             super(v);
-            textView = v.findViewById(R.id.textView);
-            imageView = v.findViewById(R.id.imageView);
+            textView = v.findViewById(R.id.textView1);
+            imageView = v.findViewById(R.id.imageView1);
         }
     }
 }
